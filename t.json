@@ -1,0 +1,59 @@
+{
+    "topic": {
+        "id": "angular",
+        "title": "Angular",
+        "img": "anguler.png",
+        "quizzes": [
+            {
+                "id": "angular-basics",
+                "title": "Angular Basics",
+                "description": "Angular is a platform for building large-scale JavaScript applications"
+            }
+        ]
+    },
+    "quiz": {
+        "id": "angular-basics",
+        "title": "Angular Basics",
+        "questions": [
+            {
+                "text": "What is the proper way to refer to the Angular 2+ framework?",
+                "options": [
+                    {
+                        "value": "AngularJS",
+                        "correct": false,
+                        "detail": "Nope, that's how you should refer to the old Angular version1 framework"
+                    },
+                    {
+                        "value": "Angular",
+                        "detail": "Nailed It!",
+                        "correct": true
+                    },
+                    {
+                        "correct": false,
+                        "detail": "Nope, Angular is currently on version 8, so that doesn't really work.",
+                        "value": "Angular Two"
+                    }
+                ]
+            },
+            {
+                "options": [
+                    {
+                        "correct": true,
+                        "value": "RxJS and TypeScript"
+                    },
+                    {
+                        "value": "Mobx and Dart",
+                        "correct": false
+                    },
+                    {
+                        "value": "Redux and Flow",
+                        "correct": false
+                    }
+                ],
+                "text": "By default, Angular ships with which two key JavaScript libraries?"
+            }
+        ],
+        "description": "Angular is a platform for building large-scale JavaScript applications",
+        "topic": "angular"
+    }
+}
